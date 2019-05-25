@@ -1,11 +1,28 @@
 import 'package:flutter/material.dart';
-import 'hello.dart';
-import 'widget-intro.dart';
 
+// import 'hello.dart';
 // void main() => runApp(new MyHello());
+
+// import 'widget-intro.dart';
+// import 'counter.dart';
+// void main() {
+//   runApp(new MaterialApp(
+//     title: 'Widget-intro',
+//     //home: new WI_MyScaffold(),
+//     home: new Counter(),
+//   ));
+// }
+
+import 'shopping.dart';
 void main() {
   runApp(new MaterialApp(
-    title: 'Widget-intro',
-    home: new WI_MyScaffold(),
+    title: 'Shopping App',
+    home: new ShoppingList(
+      products: <Product>[
+        new Product(name: 'Eggs'),
+        new Product(name: 'Flour'),
+        new Product(name: 'Chocolate chips'),
+      ],
+    ),
   ));
 }
