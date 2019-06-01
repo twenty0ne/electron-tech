@@ -13,16 +13,26 @@ import 'package:flutter/material.dart';
 //   ));
 // }
 
-import 'shopping.dart';
+// import 'shopping.dart';
+// void main() {
+//   runApp(new MaterialApp(
+//     title: 'Shopping App',
+//     home: new ShoppingList(
+//       products: <Product>[
+//         new Product(name: 'Eggs'),
+//         new Product(name: 'Flour'),
+//         new Product(name: 'Chocolate chips'),
+//       ],
+//     ),
+//   ));
+// }
+
+// import 'theme.dart';
+// void main() {
+//   runApp(new MyThemeApp());
+// }
+
+import 'image.dart';
 void main() {
-  runApp(new MaterialApp(
-    title: 'Shopping App',
-    home: new ShoppingList(
-      products: <Product>[
-        new Product(name: 'Eggs'),
-        new Product(name: 'Flour'),
-        new Product(name: 'Chocolate chips'),
-      ],
-    ),
-  ));
+  runApp(new MyImageApp());
 }
