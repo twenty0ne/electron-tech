@@ -32,7 +32,12 @@ import 'package:flutter/material.dart';
 //   runApp(new MyThemeApp());
 // }
 
-import 'image.dart';
+// import 'image.dart';
+// void main() {
+//   runApp(new MyImageApp());
+// }
+
+import 'layout.dart';
 void main() {
-  runApp(new MyImageApp());
+  runApp(new MyLayoutApp());
 }
